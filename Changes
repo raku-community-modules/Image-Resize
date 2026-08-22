@@ -1,6 +1,8 @@
 Revision history for Image::Resize
 
 {{$NEXT}}
+    - Modernize META and documentation
+    - Update copyright year
 
 0.1  2024-09-19T20:28:15+02:00
     - Initial version as a Raku Community Module

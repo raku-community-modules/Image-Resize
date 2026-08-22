@@ -1,4 +1,4 @@
-use GD::Raw:ver<0.3+>:auth<zef:raku-community-modules>;
+use GD::Raw:ver<0.8+>:auth<zef:raku-community-modules>;
 
 my constant %ext-to-func =
   bmp  => &gdImageCreateFromBmp,

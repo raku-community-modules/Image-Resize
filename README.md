@@ -33,8 +33,6 @@ Can read bmp, jpg, png and gif images and store the image in any format (dependi
 
 Can also specify the named argument `:no-resample`, which will disable resampling (using "smooth" copying from a large image to a smaller one, using a weighted average of the pixels).
 
-jpeg-quality
-
 When copying to a jpeg image, you can also specify the named argument `:jpeg-quality` to change the quality of the resized image. The value should be 0 .. 95. A negative value will set it to default jpeg value of GD.
 
 SUBROUTINES
@@ -80,12 +78,14 @@ AUTHORS
 
   * Raku Community
 
+Source can be located at: https://github.com/raku-community-modules/Image-Resize . Comments and Pull Requests are welcome.
+
 COPYRIGHT AND LICENSE
 =====================
 
 Copyright 2013 - 2018 Dagur Valberg Johannsson
 
-Copyright 2024 Raku Community
+Copyright 2024, 2026 Raku Community
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

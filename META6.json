@@ -6,19 +6,28 @@
   ],
   "build-depends": [
   ],
-  "depends": [
-    "GD::Raw:ver<0.3+>:auth<zef:raku-community-modules>"
-  ],
+  "depends": {
+    "runtime": {
+      "requires": [
+        "GD::Raw:ver<0.8+>:auth<zef:raku-community-modules>"
+      ]
+    }
+  },
   "description": "Resize images using GD",
   "license": "Artistic-2.0",
   "name": "Image::Resize",
-  "perl": "6.*",
   "provides": {
     "Image::Resize": "lib/Image/Resize.rakumod"
   },
+  "raku": "6.*",
   "resources": [
   ],
   "source-url": "https://github.com/raku-community-modules/Image-Resize.git",
+  "support": {
+    "bugtracker": "https://github.com/raku-community-modules/Image-Resize/issues",
+    "email": "community@raku.org",
+    "source": "https://github.com/raku-community-modules/Image-Resize.git"
+  },
   "tags": [
     "IMAGE"
   ],

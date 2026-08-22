@@ -1,8 +1,0 @@
-use Test;
-use Image::Resize;
-
-plan 1;
-
-ok 1, "Image::Resize loaded";
-
-# vim: expandtab shiftwidth=4
